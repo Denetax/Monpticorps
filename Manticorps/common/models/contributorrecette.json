@@ -1,0 +1,25 @@
+{
+  "name": "Contributorrecette",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user": {
+      "type": "number",
+      "required": true
+    },
+    "recette": {
+      "type": "number",
+      "required": true
+    },
+    "last_contribution_date": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "RecetteCategorierecette",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "recette": {
+      "type": "number",
+      "required": true
+    },
+    "categorierecette": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

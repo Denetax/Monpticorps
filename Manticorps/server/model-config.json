@@ -1,0 +1,56 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "CategorieRecette": {
+    "dataSource": "test",
+    "public": true
+  },
+  "Recette": {
+    "dataSource": "test",
+    "public": true
+  },
+  "RecetteCategorierecette": {
+    "dataSource": "test",
+    "public": true
+  },
+  "Repas": {
+    "dataSource": "test",
+    "public": true
+  },
+  "Saison": {
+    "dataSource": "test",
+    "public": true
+  },
+  "TypeQuantite": {
+    "dataSource": "test",
+    "public": true
+  },
+  "Categorieingredient": {
+    "dataSource": "test",
+    "public": true
+  },
+  "Ingredient": {
+    "dataSource": "test",
+    "public": true
+  },
+  "Ingredientrecette": {
+    "dataSource": "test",
+    "public": true
+  },
+  "Contributorrecette": {
+    "dataSource": "test",
+    "public": true
+  }
+}

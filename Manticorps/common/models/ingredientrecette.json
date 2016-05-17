@@ -1,0 +1,22 @@
+{
+  "name": "Ingredientrecette",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "recette": {
+      "type": "number",
+      "required": true
+    },
+    "ingredient": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
