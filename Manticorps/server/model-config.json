@@ -15,11 +15,15 @@
   },
   "CategorieRecette": {
     "dataSource": "test",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Recette": {
     "dataSource": "test",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "RecetteCategorierecette": {
     "dataSource": "test",
