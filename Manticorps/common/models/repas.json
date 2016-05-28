@@ -23,7 +23,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+        "recettes": {
+        "type": "hasMany",
+        "model": "Recette",
+        "foreignKey": "recetteId"
+      }
+
+    },
   "acls": [],
   "methods": {}
 }

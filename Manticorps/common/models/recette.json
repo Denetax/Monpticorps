@@ -23,7 +23,29 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+      "categories": {
+      "type": "hasMany",
+      "model": "CategorieRecette",
+      "foreignKey": "categorieRecetteId"
+    },
+    "saisons": {
+      "type": "hasMany",
+      "model": "Saison",
+      "foreignKey": "saisonId"
+    },
+    "ingredients": {
+      "type": "hasMany",
+      "model": "Ingredient",
+      "foreignKey": "ingredientId"
+    },
+    "contributorrecette": {
+      "type": "hasMany",
+      "model": "Contributorrecette",
+      "foreignKey": "contributorrecetteId"
+    }
+
+    },
   "acls": [],
   "methods": {}
 }
