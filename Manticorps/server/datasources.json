@@ -7,5 +7,14 @@
     "name": "test",
     "user": "",
     "connector": "mongodb"
+  },
+  "FeedMe2": {
+    "host": "127.0.0.1",
+    "port": 0,
+    "database": "FeedMe",
+    "password": "",
+    "name": "FeedMe2",
+    "user": "root",
+    "connector": "mysql"
   }
 }

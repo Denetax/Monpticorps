@@ -14,47 +14,63 @@
     ]
   },
   "CategorieRecette": {
-    "dataSource": "test",
+    "dataSource": "FeedMe2",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "Recette": {
-    "dataSource": "test",
+    "dataSource": "FeedMe2",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
   "RecetteCategorierecette": {
-    "dataSource": "test",
-    "public": true
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Repas": {
-    "dataSource": "test",
-    "public": true
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Saison": {
-    "dataSource": "test",
-    "public": true
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "TypeQuantite": {
-    "dataSource": "test",
-    "public": true
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Categorieingredient": {
-    "dataSource": "test",
-    "public": true
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Ingredient": {
-    "dataSource": "test",
-    "public": true
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Ingredientrecette": {
-    "dataSource": "test",
-    "public": true
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Contributorrecette": {
-    "dataSource": "test",
-    "public": true
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
