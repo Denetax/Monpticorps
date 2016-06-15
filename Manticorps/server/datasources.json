@@ -1,13 +1,4 @@
 {
-  "test": {
-    "host": "127.0.0.1",
-    "port": 27017,
-    "database": "test",
-    "password": "",
-    "name": "test",
-    "user": "",
-    "connector": "mongodb"
-  },
   "FeedMe2": {
     "host": "127.0.0.1",
     "port": 0,
