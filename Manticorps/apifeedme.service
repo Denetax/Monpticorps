@@ -1,0 +1,15 @@
+[Unit]
+Description=Feed me API
+After=network.target
+
+[Service]
+ExecStart=/var/www/apifeedme/server/server.js
+Restart=always
+User=apifeedme
+Group=apifeedme
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/var/www/apifeedme
+
+[Install]
+WantedBy=multi-user.target
