@@ -1,5 +1,5 @@
 {
-  "name": "ContributorRecette",
+  "name": "Contributorrecette",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {

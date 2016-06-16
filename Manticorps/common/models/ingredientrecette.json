@@ -1,5 +1,5 @@
 {
-  "name": "IngredientRecette",
+  "name": "Ingredientrecette",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
