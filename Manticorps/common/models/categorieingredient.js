@@ -1,3 +1,3 @@
-module.exports = function(Categorieingredient) {
+module.exports = function(Categoriengredient) {
 
 };
