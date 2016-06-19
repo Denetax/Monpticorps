@@ -21,6 +21,10 @@
       "type": "date",
       "id": false,
       "required": false
+    },
+    "IdTypeQuantite": {
+      "type": "number",
+      "id": true
     }
   },
   "validations": [],
