@@ -9,6 +9,16 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "idCategorieRecette": {
+      "type": "number",
+      "id": true
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
     }
   },
   "validations": [],
