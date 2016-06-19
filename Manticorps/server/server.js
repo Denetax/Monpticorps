@@ -2,8 +2,17 @@
 
 var loopback = require('loopback');
 var boot = require('loopback-boot');
+var express = require('express');
+var session = require('express-session');
+var bodyParser = require('body-parser');
 
 var app = module.exports = loopback();
+
+app.use(bodyParser.json());
+app.use(session({secret: 'ssshhhhh'}));
+app.use(bodyParser.urlencoded({extended: true}));
+
+
 
 app.start = function() {
   // start the web server
