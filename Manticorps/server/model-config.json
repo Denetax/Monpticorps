@@ -72,5 +72,11 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Users": {
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
