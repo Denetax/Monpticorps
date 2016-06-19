@@ -12,10 +12,14 @@
     },
     "created_at": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "updated_at": {
       "type": "date"
+    },
+    "idCategorieingredient": {
+      "type": "number",
+      "id": true
     }
   },
   "validations": [],
