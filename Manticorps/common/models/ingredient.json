@@ -22,21 +22,21 @@
       "type": "string",
       "required": true
     },
-    "updated_at": {
-      "type": "date"
-    },
     "typequantite": {
       "type": "number",
       "required": true
-    },
-    "created_at": {
-      "type": "date",
-      "required": false
     },
     "idIngredient": {
       "type": "number",
       "id": true,
       "required": false
+    },
+    "created_at": {
+      "type": "date",
+      "required": false
+    },
+    "updated_at": {
+      "type": "date"
     }
   },
   "validations": [],

@@ -6,13 +6,23 @@
     "validateUpsert": true
   },
   "properties": {
+    "categorierecette": {
+      "type": "number",
+      "required": true
+    },
+    "idRecetteCategorierecette": {
+      "type": "number",
+      "id": true
+    },
+    "create_at": {
+      "type": "date"
+    },
     "recette": {
       "type": "number",
       "required": true
     },
-    "categorierecette": {
-      "type": "number",
-      "required": true
+    "updated_at": {
+      "type": "date"
     }
   },
   "validations": [],

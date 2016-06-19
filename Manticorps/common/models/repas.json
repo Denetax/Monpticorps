@@ -10,16 +10,20 @@
       "type": "string",
       "required": true
     },
-    "date": {
-      "type": "date",
-      "required": true
+    "updated_at": {
+      "type": "date"
+    },
+    "idRepas": {
+      "type": "number",
+      "id": true
     },
     "created_at": {
       "type": "date",
-      "required": true
+      "required": false
     },
-    "updated_at": {
-      "type": "date"
+    "dateRepas": {
+      "type": "date",
+      "required": true
     }
   },
   "validations": [],

@@ -14,16 +14,16 @@
       "type": "string",
       "required": true
     },
-    "updated_at": {
-      "type": "date"
+    "idRecette": {
+      "type": "number",
+      "id": true
     },
     "create_at": {
       "type": "date",
       "required": false
     },
-    "idRecette": {
-      "type": "number",
-      "id": true
+    "updated_at": {
+      "type": "date"
     }
   },
   "validations": [],
