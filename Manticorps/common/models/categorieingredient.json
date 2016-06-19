@@ -10,16 +10,16 @@
       "type": "string",
       "required": true
     },
-    "created_at": {
-      "type": "date",
-      "required": false
+    "idCategorieingredient": {
+      "type": "number",
+      "id": true
     },
     "updated_at": {
       "type": "date"
     },
-    "idCategorieingredient": {
-      "type": "number",
-      "id": true
+    "created_at": {
+      "type": "date",
+      "required": false
     }
   },
   "validations": [],

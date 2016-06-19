@@ -14,8 +14,15 @@
       "type": "number",
       "required": true
     },
-    "last_contribution_date": {
+    "updated_at": {
       "type": "date"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "idContributorrecette": {
+      "type": "number",
+      "id": true
     }
   },
   "validations": [],
