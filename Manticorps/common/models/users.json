@@ -58,22 +58,6 @@
       },
       "_selectable": false
     },
-    "role": {
-      "type": "number",
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "role",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "iduser": {
       "type": "number",
       "id": true,
@@ -103,6 +87,22 @@
         "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "role": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "role",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
         "nullable": "N"
       },
       "_selectable": false
