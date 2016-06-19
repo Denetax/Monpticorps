@@ -20,7 +20,7 @@
     "created_at": {
       "type": "date",
       "id": false,
-      "required": true
+      "required": false
     }
   },
   "validations": [],
