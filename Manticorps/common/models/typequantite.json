@@ -1,5 +1,5 @@
 {
-  "name": "Saison",
+  "name": "Typequantite",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -7,7 +7,7 @@
   },
   "mysql": {
     "schema": "feedme",
-    "table": "saison"
+    "table": "typequantite"
   },
   "properties": {
     "createdAt": {
@@ -28,7 +28,7 @@
     },
     "updatedAt": {
       "type": "date",
-      "required": false,
+      "required": true,
       "length": null,
       "precision": null,
       "scale": null,
@@ -38,9 +38,26 @@
         "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "Y"
+        "nullable": "N"
       },
-      "_selectable": true
+      "_selectable": false
+    },
+    "idtypequantite": {
+      "type": "number",
+      "id": true,
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "IdTypeQuantite",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
     },
     "name": {
       "type": "string",
@@ -58,19 +75,18 @@
       },
       "_selectable": false
     },
-    "idsaison": {
-      "type": "number",
-      "id": true,
+    "unit": {
+      "type": "string",
       "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
+      "length": 512,
+      "precision": null,
+      "scale": null,
       "mysql": {
-        "columnName": "idSaison",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
+        "columnName": "unit",
+        "dataType": "varchar",
+        "dataLength": 512,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "N"
       },
       "_selectable": false

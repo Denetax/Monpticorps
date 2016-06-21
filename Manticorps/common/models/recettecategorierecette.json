@@ -1,5 +1,5 @@
 {
-  "name": "Saison",
+  "name": "Recettecategorierecette",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -7,17 +7,33 @@
   },
   "mysql": {
     "schema": "feedme",
-    "table": "saison"
+    "table": "recettecategorierecette"
   },
   "properties": {
-    "createdAt": {
+    "categorierecette": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "categorierecette",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "createAt": {
       "type": "date",
       "required": false,
       "length": null,
       "precision": null,
       "scale": null,
       "mysql": {
-        "columnName": "created_at",
+        "columnName": "create_at",
         "dataType": "timestamp",
         "dataLength": null,
         "dataPrecision": null,
@@ -42,23 +58,7 @@
       },
       "_selectable": true
     },
-    "name": {
-      "type": "string",
-      "required": true,
-      "length": 512,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "name",
-        "dataType": "varchar",
-        "dataLength": 512,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
-    "idsaison": {
+    "idrecettecategorierecette": {
       "type": "number",
       "id": true,
       "required": true,
@@ -66,7 +66,23 @@
       "precision": 10,
       "scale": 0,
       "mysql": {
-        "columnName": "idSaison",
+        "columnName": "idRecetteCategorierecette",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "recette": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "recette",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,

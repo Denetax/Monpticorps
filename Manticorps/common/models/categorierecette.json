@@ -1,5 +1,5 @@
 {
-  "name": "Saison",
+  "name": "Categorierecette",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -7,7 +7,7 @@
   },
   "mysql": {
     "schema": "feedme",
-    "table": "saison"
+    "table": "categorierecette"
   },
   "properties": {
     "createdAt": {
@@ -18,22 +18,6 @@
       "scale": null,
       "mysql": {
         "columnName": "created_at",
-        "dataType": "timestamp",
-        "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
-    "updatedAt": {
-      "type": "date",
-      "required": false,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "updated_at",
         "dataType": "timestamp",
         "dataLength": null,
         "dataPrecision": null,
@@ -58,15 +42,31 @@
       },
       "_selectable": false
     },
-    "idsaison": {
+    "updatedAt": {
+      "type": "date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "updated_at",
+        "dataType": "timestamp",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      },
+      "_selectable": true
+    },
+    "idcategorierecette": {
       "type": "number",
       "id": true,
-      "required": true,
+      "required": false,
       "length": null,
       "precision": 10,
       "scale": 0,
       "mysql": {
-        "columnName": "idSaison",
+        "columnName": "idCategorieRecette",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
