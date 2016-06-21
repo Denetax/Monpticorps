@@ -58,7 +58,7 @@
       },
       "_selectable": false
     },
-    "idtypequantite": {
+    "id": {
       "type": "number",
       "id": true,
       "required": false,

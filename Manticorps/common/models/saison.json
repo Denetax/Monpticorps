@@ -58,7 +58,7 @@
       },
       "_selectable": false
     },
-    "idsaison": {
+    "id": {
       "type": "number",
       "id": true,
       "required": false,

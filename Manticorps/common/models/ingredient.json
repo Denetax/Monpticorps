@@ -122,7 +122,7 @@
       },
       "_selectable": true
     },
-    "idingredient": {
+    "id": {
       "type": "number",
       "id": true,
       "required": false,

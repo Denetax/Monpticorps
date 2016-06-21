@@ -58,7 +58,7 @@
       },
       "_selectable": true
     },
-    "idcategorierecette": {
+    "id": {
       "type": "number",
       "id": true,
       "required": false,

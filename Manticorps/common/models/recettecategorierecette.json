@@ -58,23 +58,6 @@
       },
       "_selectable": true
     },
-    "idrecettecategorierecette": {
-      "type": "number",
-      "id": true,
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "idRecetteCategorierecette",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "recette": {
       "type": "number",
       "required": true,
@@ -83,6 +66,23 @@
       "scale": 0,
       "mysql": {
         "columnName": "recette",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "idRecetteCategorierecette",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
