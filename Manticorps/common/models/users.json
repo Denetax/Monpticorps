@@ -58,23 +58,6 @@
       },
       "_selectable": false
     },
-    "iduser": {
-      "type": "number",
-      "id": true,
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "idUser",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "password": {
       "type": "string",
       "required": true,
@@ -119,6 +102,23 @@
         "dataLength": 255,
         "dataPrecision": null,
         "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "iduser": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "idUser",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
         "nullable": "N"
       },
       "_selectable": false

@@ -26,39 +26,6 @@
       },
       "_selectable": true
     },
-    "updatedAt": {
-      "type": "date",
-      "required": true,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "updated_at",
-        "dataType": "timestamp",
-        "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
-    "idtypequantite": {
-      "type": "number",
-      "id": true,
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "IdTypeQuantite",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "name": {
       "type": "string",
       "required": true,
@@ -85,6 +52,39 @@
         "columnName": "unit",
         "dataType": "varchar",
         "dataLength": 512,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "idtypequantite": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "IdTypeQuantite",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "updatedAt": {
+      "type": "date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "updated_at",
+        "dataType": "timestamp",
+        "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "N"
