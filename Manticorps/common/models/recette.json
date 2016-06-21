@@ -10,23 +10,6 @@
     "table": "recette"
   },
   "properties": {
-    "idrecette": {
-      "type": "number",
-      "id": true,
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "idRecette",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "createAt": {
       "type": "date",
       "required": false,
@@ -87,6 +70,23 @@
         "dataLength": 512,
         "dataPrecision": null,
         "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "idrecette": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "idRecette",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
         "nullable": "N"
       },
       "_selectable": false
