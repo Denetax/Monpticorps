@@ -82,7 +82,7 @@
       "precision": 10,
       "scale": 0,
       "mysql": {
-        "columnName": "idContributorrecette",
+        "columnName": "id",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
