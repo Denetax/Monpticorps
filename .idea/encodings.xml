@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Manticorps/back/config.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/common/models/categorieingredient.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/common/models/categorieingredient.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/common/models/ingredient.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/common/models/ingredientsaison.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/common/models/ingredientsaison.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/common/models/users.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/common/models/users.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/server/boot/routes.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/server/datasources.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Manticorps/server/server.js" charset="UTF-8" />
+  </component>
+</project>
