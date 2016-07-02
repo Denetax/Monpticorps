@@ -49,12 +49,6 @@
     "$promise": {},
     "$resolved": true
   },
-  "Ingredientrecette": {
-    "dataSource": "FeedMe2",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
-  },
   "Ingredienttypequantite": {
     "dataSource": "FeedMe2",
     "public": true,
@@ -98,6 +92,12 @@
     "$resolved": true
   },
   "Users": {
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Ingredientrecette": {
     "dataSource": "FeedMe2",
     "public": true,
     "$promise": {},
