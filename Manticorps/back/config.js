@@ -16,7 +16,7 @@ function querySql(query,result){
   startConnectionSql('localhost','root','','FeedMe',function(connection){
 
     connection.query(query, function (err, rows, fields) {
-      if (err) throw err;
+      if (err) result(err);
       result(rows);
       connection.end();
     });
