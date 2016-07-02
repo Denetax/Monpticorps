@@ -1,5 +1,5 @@
 {
-  "name": "Categorierecette",
+  "name": "Etape",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -7,7 +7,7 @@
   },
   "mysql": {
     "schema": "feedme",
-    "table": "categorierecette"
+    "table": "etape"
   },
   "properties": {
     "createdAt": {
@@ -22,9 +22,25 @@
         "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "Y"
+        "nullable": "N"
       },
-      "_selectable": true
+      "_selectable": false
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "length": 65535,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "description",
+        "dataType": "text",
+        "dataLength": 65535,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
     },
     "id": {
       "type": "number",
@@ -43,16 +59,48 @@
       },
       "_selectable": false
     },
-    "name": {
+    "recette": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "recette",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "thumbnail": {
       "type": "string",
       "required": true,
-      "length": 512,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "thumbnail",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "titre": {
+      "type": "string",
+      "required": true,
+      "length": 100,
       "precision": null,
       "scale": null,
       "mysql": {
-        "columnName": "name",
+        "columnName": "titre",
         "dataType": "varchar",
-        "dataLength": 512,
+        "dataLength": 100,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "N"
@@ -71,9 +119,9 @@
         "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "Y"
+        "nullable": "N"
       },
-      "_selectable": true
+      "_selectable": false
     }
   },
   "validations": [],

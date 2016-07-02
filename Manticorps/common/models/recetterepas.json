@@ -1,5 +1,5 @@
 {
-  "name": "Ingredient",
+  "name": "Recetterepas",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -7,7 +7,7 @@
   },
   "mysql": {
     "schema": "feedme",
-    "table": "ingredient"
+    "table": "recetterepas"
   },
   "properties": {
     "createdAt": {
@@ -22,9 +22,9 @@
         "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "Y"
+        "nullable": "N"
       },
-      "_selectable": true
+      "_selectable": false
     },
     "updatedAt": {
       "type": "date",
@@ -38,38 +38,6 @@
         "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
-    "categorie": {
-      "type": "number",
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "categorie",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
-    "glycemie": {
-      "type": "number",
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "glycemie",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
         "nullable": "N"
       },
       "_selectable": false
@@ -91,18 +59,50 @@
       },
       "_selectable": false
     },
-    "name": {
-      "type": "string",
+    "ordre": {
+      "type": "number",
       "required": true,
-      "length": 512,
-      "precision": null,
-      "scale": null,
+      "length": null,
+      "precision": 3,
+      "scale": 0,
       "mysql": {
-        "columnName": "name",
-        "dataType": "varchar",
-        "dataLength": 512,
-        "dataPrecision": null,
-        "dataScale": null,
+        "columnName": "ordre",
+        "dataType": "tinyint",
+        "dataLength": null,
+        "dataPrecision": 3,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "recette": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "recette",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "repas": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "repas",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
         "nullable": "N"
       },
       "_selectable": false

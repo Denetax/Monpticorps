@@ -1,5 +1,5 @@
 {
-  "name": "Categorierecette",
+  "name": "Ingredienttypequantite",
   "base": "PersistedModel",
   "idInjection": false,
   "options": {
@@ -7,7 +7,7 @@
   },
   "mysql": {
     "schema": "feedme",
-    "table": "categorierecette"
+    "table": "ingredienttypequantite"
   },
   "properties": {
     "createdAt": {
@@ -20,39 +20,6 @@
         "columnName": "created_at",
         "dataType": "timestamp",
         "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
-    "id": {
-      "type": "number",
-      "id": true,
-      "required": false,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "id",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
-    "name": {
-      "type": "string",
-      "required": true,
-      "length": 512,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "name",
-        "dataType": "varchar",
-        "dataLength": 512,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "N"
@@ -71,9 +38,58 @@
         "dataLength": null,
         "dataPrecision": null,
         "dataScale": null,
-        "nullable": "Y"
+        "nullable": "N"
       },
-      "_selectable": true
+      "_selectable": false
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "ingredient": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "ingredient",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "typequantite": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "typequantite",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
     }
   },
   "validations": [],

@@ -10,22 +10,6 @@
     "table": "ingredientsaison"
   },
   "properties": {
-    "ingredient": {
-      "type": "number",
-      "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "ingredient",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "createdAt": {
       "type": "date",
       "required": false,
@@ -58,15 +42,14 @@
       },
       "_selectable": false
     },
-    "id": {
+    "ingredient": {
       "type": "number",
-      "id": true,
-      "required": false,
+      "required": true,
       "length": null,
       "precision": 10,
       "scale": 0,
       "mysql": {
-        "columnName": "id",
+        "columnName": "ingredient",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,
@@ -77,12 +60,29 @@
     },
     "saison": {
       "type": "number",
-      "required": false,
+      "required": true,
       "length": null,
       "precision": 10,
       "scale": 0,
       "mysql": {
         "columnName": "saison",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "id",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,

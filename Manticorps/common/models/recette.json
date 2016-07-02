@@ -10,6 +10,22 @@
     "table": "recette"
   },
   "properties": {
+    "author": {
+      "type": "string",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "author",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
     "createAt": {
       "type": "date",
       "required": false,
@@ -42,38 +58,6 @@
       },
       "_selectable": true
     },
-    "name": {
-      "type": "string",
-      "required": true,
-      "length": 512,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "name",
-        "dataType": "varchar",
-        "dataLength": 512,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
-    "author": {
-      "type": "number",
-      "required": true,
-      "length": 512,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "author",
-        "dataType": "varchar",
-        "dataLength": 512,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "id": {
       "type": "number",
       "id": true,
@@ -87,6 +71,22 @@
         "dataLength": null,
         "dataPrecision": 10,
         "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "length": 512,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "name",
+        "dataType": "varchar",
+        "dataLength": 512,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "N"
       },
       "_selectable": false

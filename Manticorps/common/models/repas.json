@@ -42,22 +42,6 @@
       },
       "_selectable": true
     },
-    "owner": {
-      "type": "string",
-      "required": true,
-      "length": 512,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "owner",
-        "dataType": "varchar",
-        "dataLength": 512,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "daterepas": {
       "type": "date",
       "required": true,
@@ -83,6 +67,22 @@
       "scale": 0,
       "mysql": {
         "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "owner": {
+      "type": "string",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "owner",
         "dataType": "int",
         "dataLength": null,
         "dataPrecision": 10,

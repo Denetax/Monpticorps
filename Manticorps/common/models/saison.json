@@ -42,22 +42,6 @@
       },
       "_selectable": true
     },
-    "name": {
-      "type": "string",
-      "required": true,
-      "length": 512,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "name",
-        "dataType": "varchar",
-        "dataLength": 512,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "id": {
       "type": "number",
       "id": true,
@@ -71,6 +55,22 @@
         "dataLength": null,
         "dataPrecision": 10,
         "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "length": 512,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "name",
+        "dataType": "varchar",
+        "dataLength": 512,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "N"
       },
       "_selectable": false

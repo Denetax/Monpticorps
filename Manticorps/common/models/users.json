@@ -10,71 +10,6 @@
     "table": "users"
   },
   "properties": {
-    "email": {
-      "type": "string",
-      "required": true,
-      "length": 255,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "email",
-        "dataType": "varchar",
-        "dataLength": 255,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
-    "password": {
-      "type": "string",
-      "required": true,
-      "length": 255,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "password",
-        "dataType": "varchar",
-        "dataLength": 255,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
-    "username": {
-      "type": "string",
-      "required": true,
-      "length": 255,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "username",
-        "dataType": "varchar",
-        "dataLength": 255,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
-    "id": {
-      "type": "number",
-      "id": true,
-      "required": false,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "id",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "createdAt": {
       "type": "date",
       "required": false,
@@ -107,18 +42,18 @@
       },
       "_selectable": false
     },
-    "role": {
-      "type": "number",
+    "email": {
+      "type": "string",
       "required": true,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
+      "length": 255,
+      "precision": null,
+      "scale": null,
       "mysql": {
-        "columnName": "role",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
+        "columnName": "email",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "N"
       },
       "_selectable": false
@@ -135,6 +70,71 @@
         "dataLength": null,
         "dataPrecision": 10,
         "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "id": {
+      "type": "number",
+      "id": true,
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "id",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "password": {
+      "type": "string",
+      "required": true,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "password",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "role": {
+      "type": "number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "role",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "username": {
+      "type": "string",
+      "required": true,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "username",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "N"
       },
       "_selectable": false

@@ -31,13 +31,31 @@
     "$promise": {},
     "$resolved": true
   },
+  "Etape": {
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
   "Ingredient": {
     "dataSource": "FeedMe2",
     "public": true,
     "$promise": {},
     "$resolved": true
   },
+  "Ingredientsaison": {
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
   "Ingredientrecette": {
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Ingredienttypequantite": {
     "dataSource": "FeedMe2",
     "public": true,
     "$promise": {},
@@ -50,6 +68,12 @@
     "$resolved": true
   },
   "Recettecategorierecette": {
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Recetterepas": {
     "dataSource": "FeedMe2",
     "public": true,
     "$promise": {},
@@ -74,12 +98,6 @@
     "$resolved": true
   },
   "Users": {
-    "dataSource": "FeedMe2",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
-  },
-  "Ingredientsaison": {
     "dataSource": "FeedMe2",
     "public": true,
     "$promise": {},

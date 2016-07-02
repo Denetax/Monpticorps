@@ -15,7 +15,7 @@ module.exports = function(Ingredientsaison) {
     {
       description : "lier un ingrédient a une ou plusieurs saison",
       accepts: [
-          {arg:'data',type:'object',required:true}
+        {arg:'data',type:'object',required:true}
       ],
       returns:{
         arg:'status', type:'json', root:true,description:'Return value'
