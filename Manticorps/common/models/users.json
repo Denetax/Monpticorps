@@ -26,6 +26,22 @@
       },
       "_selectable": false
     },
+    "datedenaissance": {
+      "type": "date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "dateDeNaissance",
+        "dataType": "date",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
     "email": {
       "type": "string",
       "required": true,
