@@ -26,22 +26,6 @@
       },
       "_selectable": false
     },
-    "updatedAt": {
-      "type": "date",
-      "required": false,
-      "length": null,
-      "precision": null,
-      "scale": null,
-      "mysql": {
-        "columnName": "updated_at",
-        "dataType": "timestamp",
-        "dataLength": null,
-        "dataPrecision": null,
-        "dataScale": null,
-        "nullable": "N"
-      },
-      "_selectable": false
-    },
     "email": {
       "type": "string",
       "required": true,
@@ -60,7 +44,7 @@
     },
     "etatcompte": {
       "type": "number",
-      "required": false,
+      "required": true,
       "length": null,
       "precision": 10,
       "scale": 0,
@@ -87,6 +71,22 @@
         "dataLength": null,
         "dataPrecision": 10,
         "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "image": {
+      "type": "string",
+      "required": false,
+      "length": 255,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "image",
+        "dataType": "varchar",
+        "dataLength": 255,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "N"
       },
       "_selectable": false
@@ -119,6 +119,22 @@
         "dataLength": null,
         "dataPrecision": 10,
         "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
+    "updatedAt": {
+      "type": "date",
+      "required": false,
+      "length": null,
+      "precision": null,
+      "scale": null,
+      "mysql": {
+        "columnName": "updated_at",
+        "dataType": "timestamp",
+        "dataLength": null,
+        "dataPrecision": null,
+        "dataScale": null,
         "nullable": "N"
       },
       "_selectable": false
