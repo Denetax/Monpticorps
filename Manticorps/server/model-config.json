@@ -55,12 +55,6 @@
     "$promise": {},
     "$resolved": true
   },
-  "Recette": {
-    "dataSource": "FeedMe2",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
-  },
   "Recettecategorierecette": {
     "dataSource": "FeedMe2",
     "public": true,
@@ -102,5 +96,9 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Recette": {
+    "dataSource": "FeedMe2",
+    "public": true
   }
 }
