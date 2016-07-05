@@ -34,7 +34,7 @@ module.exports = function(Recetterepas) {
     //sqlServeur.querySql("SELECT * FROM recetteRepas WHERE repas ="+data, function (resultQuery) {
     //  return callback(null,resultQuery);
     //});
-    sqlServeur.querySql("SELECT author,name, recette.create_at, recette.updated_at FROM recette, recetterepas, repas WHERE 1=1 AND recetterepas.recette = recette.id AND repas.id = recetterepas.repas AND repas.id = "+data, function (resultQuery) {
+    sqlServeur.querySql("SELECT author,recette.name, recette.create_at, recette.updated_at FROM recette, recetterepas, repas WHERE 1=1 AND recetterepas.recette = recette.id AND repas.id = recetterepas.repas AND repas.id = "+data, function (resultQuery) {
       return callback(null,resultQuery);
     });
   };
