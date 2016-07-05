@@ -18,7 +18,7 @@ module.exports = function(Ingredientsaison) {
         {arg:'data',type:'object',required:true}
       ],
       returns:{
-        arg:'status', type:'json', root:true,description:'Return value'
+        arg:'status', type:'{"ingredient":3,"saison":[1,2,3]}', root:true,description:'Return value'
       },
       http: {verb:'post',path:'/insertIngredientSaison'}
     }

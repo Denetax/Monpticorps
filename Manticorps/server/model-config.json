@@ -97,6 +97,8 @@
   },
   "Users": {
     "dataSource": "FeedMe2",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
