@@ -31,12 +31,6 @@
     "$promise": {},
     "$resolved": true
   },
-  "Etape": {
-    "dataSource": "FeedMe2",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
-  },
   "Ingredientsaison": {
     "dataSource": "FeedMe2",
     "public": true,
@@ -96,6 +90,12 @@
     "$resolved": true
   },
   "Users": {
+    "dataSource": "FeedMe2",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Etape": {
     "dataSource": "FeedMe2",
     "public": true,
     "$promise": {},

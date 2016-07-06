@@ -59,6 +59,22 @@
       },
       "_selectable": false
     },
+    "numeroetape": {
+      "type": "number",
+      "required": true,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "numeroEtape",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
+    },
     "recette": {
       "type": "number",
       "required": true,
@@ -77,7 +93,7 @@
     },
     "thumbnail": {
       "type": "string",
-      "required": true,
+      "required": false,
       "length": null,
       "precision": 10,
       "scale": 0,
