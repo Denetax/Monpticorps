@@ -67,12 +67,6 @@
     "$promise": {},
     "$resolved": true
   },
-  "Ingredientrecette": {
-    "dataSource": "FeedMe2",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
-  },
   "Repas": {
     "dataSource": "FeedMe2",
     "public": true,
@@ -98,6 +92,10 @@
     "$resolved": true
   },
   "Recette": {
+    "dataSource": "FeedMe2",
+    "public": true
+  },
+  "Ingredientrecette": {
     "dataSource": "FeedMe2",
     "public": true
   }
